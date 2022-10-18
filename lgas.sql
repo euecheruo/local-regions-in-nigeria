@@ -1,16 +1,7 @@
--- phpMyAdmin SQL Dump
--- version 5.1.1
--- https://www.phpmyadmin.net/
---
--- Host: localhost
--- Generation Time: Oct 18, 2022 at 02:07 AM
--- Server version: 10.4.22-MariaDB
--- PHP Version: 7.4.27
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
-
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -18,13 +9,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `party-region`
---
-
--- --------------------------------------------------------
-
---
--- Table structure for table `polling_lgas`
+-- Table structure for table `lgas`
 --
 
 CREATE TABLE `lgas` (
@@ -36,10 +21,10 @@ CREATE TABLE `lgas` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Dumping data for table `polling_lgas`
+-- Dumping data for table `lgas`
 --
 
-INSERT INTO `polling_lgas` (`id`, `state_id`, `name`, `longitude`, `latitude`) VALUES
+INSERT INTO `lgas` (`id`, `state_id`, `name`, `longitude`, `latitude`) VALUES
 (1, 1, 'Aba North', '0.00000000', '0.00000000'),
 (2, 1, 'Aba South', '0.00000000', '0.00000000'),
 (3, 1, 'Arochukwu', '0.00000000', '0.00000000'),
@@ -816,24 +801,15 @@ INSERT INTO `polling_lgas` (`id`, `state_id`, `name`, `longitude`, `latitude`) V
 (774, 37, 'Zango', '0.00000000', '0.00000000');
 
 --
--- Indexes for dumped tables
---
-
---
 -- Indexes for table `polling_lgas`
 --
-ALTER TABLE `polling_lgas`
-  ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `uuid` (`uuid`);
+ALTER TABLE `lgas`
+  ADD PRIMARY KEY (`id`);
 
 --
--- AUTO_INCREMENT for dumped tables
+-- AUTO_INCREMENT for table `lgas`
 --
-
---
--- AUTO_INCREMENT for table `polling_lgas`
---
-ALTER TABLE `polling_lgas`
+ALTER TABLE `lgas`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=775;
 COMMIT;
 
