@@ -15,7 +15,7 @@ CREATE TABLE `states` (
 -- Dumping data for table `states`
 --
 
-INSERT INTO `region_states` (`id`, `name`, `iso`, `longitude`, `latitude`) VALUES
+INSERT INTO `states` (`id`, `name`, `iso`, `longitude`, `latitude`) VALUES
 (1, 'Abia', 'AB ', '5.53200304', '7.48600249'),
 (2, 'Federal Capital Territory', 'FC', '9.08333315', '7.53332800'),
 (3, 'Adamawa', 'AD', '10.27034080', '13.27003210'),
@@ -65,12 +65,8 @@ ALTER TABLE `states`
   ADD PRIMARY KEY (`id`);
 
 --
--- AUTO_INCREMENT for dumped tables
---
-
---
 -- AUTO_INCREMENT for table `states`
 --
-ALTER TABLE `region_states`
+ALTER TABLE `states`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4823;
 COMMIT;
