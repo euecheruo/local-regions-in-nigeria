@@ -27,16 +27,12 @@ SET time_zone = "+00:00";
 -- Table structure for table `polling_lgas`
 --
 
-CREATE TABLE `polling_lgas` (
+CREATE TABLE `lgas` (
   `id` int(11) NOT NULL,
-  `uuid` char(36) COLLATE utf8mb4_unicode_ci NOT NULL,
   `state_id` int(11) NOT NULL DEFAULT 0,
   `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `code` varchar(5) COLLATE utf8mb4_unicode_ci NOT NULL,
   `longitude` decimal(11,8) DEFAULT 0.00000000,
   `latitude` decimal(10,8) DEFAULT 0.00000000,
-  `modified` datetime NOT NULL DEFAULT current_timestamp(),
-  `created` datetime NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
