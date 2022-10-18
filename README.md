@@ -1,7 +1,7 @@
 # local-regions-in-nigeria
 Geographical data points of locations in Nigeria
 
-I have decided to use a hybrid of the “slug text convention” in the naming of Nigerian locations, which follow the rules I have listed below:
+I have decided to use a hybrid of the slug text convention in the naming of the locations, which rules are as listed as follows below:
 
 - All names of locations must start with a capital letter followed by small letters. As such, "Gwagwalada".
 - If the name of the location has 2 or more words, then the words should be separated by a space. As such, "Mkpat Enin".
