@@ -1,23 +1,25 @@
 # Standardized Location Naming Conventions for states, local government areas/counties, cities/towns, districts, council areas, and postal codes
 
-I. Core Rules (Non-Negotiable)
- * Uniqueness (Priority 1): Every location name must be unique within its parent region (e.g., LGA within a State). This rule overrides all others. If applying any other rule creates a name conflict, the differentiating word must be retained.
+## I. Core Rules (Non-Negotiable)
+ * **Uniqueness (Priority 1):** Every location name must be unique within its parent region (e.g., LGA within a State). This rule overrides all others. If applying any other rule creates a name conflict, the differentiating word must be retained.
  * Case Consistency: All names must start with a capital letter followed by small letters (e.g., Gwagwalada).
-II. Word and Structure Formatting
- * Multi-Word Spacing: If the name has two or more distinct words, they must be separated by a single space (e.g., Mkpat Enin).
- * Compound Location Hyphen: Names representing two or more merged, historical locations must separate the constituent names with a hyphen (-), with no spaces (e.g., Abua-Odual).
- * Conjunction Prohibition: The words "and" or the symbol "&" are strictly prohibited.
- * Number Representation: All numerical numbers in the name must be represented using Roman numerals (e.g., Akpa II).
-III. Prohibited Elements (Clarity and Consistency)
- * Redundant Adjectives: Adjectives or descriptors that define what the location already is (e.g., Municipal, City, District, Central) are considered redundant and must be removed, provided the removal does not violate the Uniqueness Rule (Priority 1).
- * Directional Words: Directional words (East, West, North, South) are only PERMITTED if their removal would violate the Uniqueness Rule (Priority 1) by creating a duplicate.
- * Special Characters: All special characters (such as /_;:#@&*()!+=) are prohibited. The single quote (') is the only exception (e.g., Jema'a).
- * Alternative Names: Alternative or old names, misspellings, or local slang names are prohibited. Only the officially recognized name is allowed.
- * Abbreviations: Abbreviations of words in the name of a location are prohibited. Each word must be spelled out in full.
- * Numerals Only: A location name cannot consist of only a numerical number.
+   
+## II. Word and Structure Formatting
+ * **Multi-Word Spacing:** If the name has two or more distinct words, they must be separated by a single space (e.g., Mkpat Enin).
+ * **Compound Location Hyphen:** Names representing two or more merged, historical locations must separate the constituent names with a hyphen (-), with no spaces (e.g., Abua-Odual).
+ * **Conjunction Prohibition:** The words "and" or the symbol "&" are strictly prohibited.
+ * **Number Representation:** All numerical numbers in the name must be represented using Roman numerals (e.g., Akpa II).
+
+## III. Prohibited Elements (Clarity and Consistency)
+ * **Redundant Adjectives:** Adjectives or descriptors that define what the location already is (e.g., Municipal, City, District, Central) are considered redundant and must be removed, provided the removal does not violate the Uniqueness Rule (Priority 1).
+ * **Directional Words:** Directional words (East, West, North, South) are only PERMITTED if their removal would violate the Uniqueness Rule (Priority 1) by creating a duplicate.
+ * **Special Characters:** All special characters (such as /_;:#@&*()!+=) are prohibited. The single quote (') is the only exception (e.g., Jema'a).
+ * **Alternative Names:** Alternative or old names, misspellings, or local slang names are prohibited. Only the officially recognized name is allowed.
+ * **Abbreviations:** Abbreviations of words in the name of a location are prohibited. Each word must be spelled out in full.
+ * **Numerals Only:** A location name cannot consist of only a numerical number.
 Would you like me to process a few sample names using this list to demonstrate the application of these rules?
 
-**Here are 6 examples for each administrative/geographic level:**
+# Here are 6 examples for each administrative/geographic level:
 
 ## States (36 Federating Units)
 These are the highest administrative level. Their names follow the Case Consistency and Multi-Word Spacing rules.
