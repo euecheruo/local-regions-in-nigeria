@@ -1,4 +1,4 @@
-# Standardized Location Naming Conventions for states, local government areas/counties, cities/towns, districts, council areas, and wards in Nigeria
+# Standardized Location Naming Conventions for States, Local Government Areas (LGA)/counties, Cities/Towns, Districts, Council Areas, and Wards in Nigeria
 
 ## I. Core Rules (Non-Negotiable)
  * **Uniqueness (Priority 1):** Every location name must be unique within its parent region (e.g., LGA within a State). This rule overrides all others. If applying any other rule creates a name conflict, the differentiating word must be retained.
