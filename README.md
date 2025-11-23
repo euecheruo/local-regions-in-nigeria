@@ -1,8 +1,8 @@
-# Standardized Location Naming Conventions for states, local government areas/counties, cities/towns, districts, council areas, and postal codes
+# Standardized Location Naming Conventions for states, local government areas/counties, cities/towns, districts, council areas, and wards in Nigeria
 
 ## I. Core Rules (Non-Negotiable)
  * **Uniqueness (Priority 1):** Every location name must be unique within its parent region (e.g., LGA within a State). This rule overrides all others. If applying any other rule creates a name conflict, the differentiating word must be retained.
- * Case Consistency: All names must start with a capital letter followed by small letters (e.g., Gwagwalada).
+ * **Case Consistency:** All names must start with a capital letter followed by small letters (e.g., Gwagwalada).
    
 ## II. Word and Structure Formatting
  * **Multi-Word Spacing:** If the name has two or more distinct words, they must be separated by a single space (e.g., Mkpat Enin).
