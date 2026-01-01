@@ -1,71 +1,60 @@
-# Standardized Naming Conventions for Nigeria
+# Standardized Naming Conventions for Nigeria (Updated)
 
 ## I. Structural Classification
 
-To ensure database integrity, names are categorized into two distinct types:
-
-1. **Administrative Regions:** Entities representing government boundaries (States, LGAs, Council Areas, Wards, Districts).
-2. **Physical Locations (Places):** Specific points, land-use areas, or institutions. **Polling Units** are classified here, treated similarly to businesses, halls, or estates rather than administrative tiers.
+1. **Administrative Regions:** Government boundaries (States, LGAs, Council Areas, Wards, Districts).
+2. **Physical Locations (Places):** Specific points, land-use areas, or institutions. **Polling Units** are classified here (e.g., schools, clinics, palaces).
 
 ---
 
 ## II. Core Formatting Rules (Global)
 
-* **Uniqueness:** Every name must be unique within its parent region. This overrides all other rules.
-* **Case Consistency:** Title Case (e.g., *Gwagwalada*).
-* *Single Quote Exception:* Letters immediately following a single quote must be **lowercase** (e.g., *Jema'a*).
-
-
-* **Spacing & Hyphens:** * Single spaces for multi-word names.
-* Hyphens (-) for merged/historical locations (e.g., *Akoko-Edo*) or as a replacement for prohibited separators like `/`.
-
-
-* **Numbers:** All digits must be converted to **Roman Numerals** (e.g., *Akpa II*, *Ward I*).
-* **Prohibited Elements:**
-* **Conjunctions:** "And" or "&" are prohibited.
-* **Special Characters:** All characters except the single quote (`'`) and hyphen (`-`) are prohibited.
-* **Alternative Names:** Slang, old names, or misspellings are prohibited.
-
-
+* **Uniqueness:** Every name must be unique within its parent region.
+* **Case Consistency:** Title Case (e.g., *Gwagwalada*). Letters following a single quote must be lowercase (e.g., *Jema'a*).
+* **Spacing & Hyphens:** Single spaces for multi-word names. Hyphens for mergers (e.g., *Akoko-Edo*) or replacing prohibited separators like `/`.
+* **Numbers:** All digits must be converted to **Roman Numerals** (e.g., *Akpa II*).
+* **Prohibited Elements:** No conjunctions ("and", "&"), special characters (except `'` and `-`), or slang/misspellings.
 
 ---
 
 ## III. Administrative Regions vs. Physical Locations
 
-### A. Administrative Regions (The "What" is Removed)
+* **Administrative Regions:** Strip redundant descriptors: *Municipal, City, District, Town, Village, L.G.A, Council, Area*.
+* *Example:* "Owerri Municipal"  **Owerri**.
 
-Names of government units must strip away redundant administrative descriptors to avoid tautology.
 
-* **Rule:** Remove words defining government units: *Municipal, City, District, Town, Village, L.G.A, Council, Area*.
-* **Example:** "Owerri Municipal" becomes **Owerri**.
+* **Physical Locations (Places):** Retain descriptors to identify the site: *Estate, Layout, Quarters, Hall, Polling Unit, Primary School, Clinic, Palace, Market*.
+* *Example:* **Gwarinpa Estate**, **Ahmadu Bello University**.
 
-### B. Physical Locations (The "What" is Retained)
 
-Names of specific places or land-use classifications must retain their descriptors to maintain their identity as a "Place."
-
-* **Rule:** Retain land-use and physical descriptors: *Estate, Layout, Quarters, Hall, Polling Unit, Primary School, Clinic, Palace, Market*.
-* **Example:** **Gwarinpa Estate**, **Umunomo Hall**, **Ahmadu Bello University**.
-* **Note on Polling Units:** Treat these as a "Contact Address" or "Institution" name.
 
 ---
 
 ## IV. Expanded Language & Abbreviation Rules
 
-To solve the ambiguity caused by Nigeria’s 100+ languages, abbreviations must be eliminated through the following hierarchy:
+To address the complexity of Nigeria’s 100+ languages, names are processed based on their linguistic composition:
 
 | Condition | Action | Example |
 | --- | --- | --- |
-| **All characters are Local abbreviations** | Expand to the **Full Local Language** name. | *K/Sarki* becomes **Kofur Sarki** |
-| **Mixed English & Local abbreviations** | **Translate and Expand** to full English names. | *S/Gari Road* becomes **Newtown Road** |
-| **All characters are English abbreviations** | Expand to the **Full English** name. | *Govt Sec Sch* becomes **Government Secondary School** |
+| **Purely Local Language** (All characters/words) | **Keep in Local Language.** Expand any local abbreviations to full local words. | *Sabon Gari* stays **Sabon Gari**. <br>
 
-### Language Translation Logic
+<br> *K/Sarki* becomes **Kofur Sarki**. |
+| **Mixed English & Local** (Characters/words from both) | **Translate and Expand** to full English names to ensure cross-regional accessibility. | *S/Gari Road* becomes **Newtown Road**. <br>
 
-To ensure accessibility for all users regardless of their native tongue, local descriptors must be translated into English:
+<br> *Tudun Wada Clinic* becomes **Wealth Hill Clinic**. |
+| **Purely English** (All characters/words) | **Keep in English.** Expand any abbreviations to full English words. | *Govt Sec Sch* becomes **Government Secondary School**. |
 
-* **Sabon Gari / S.G.**  **Newtown**
-* **Tudun Wada / T.W.**  **Wealth Hill**
-* **Unguwan**  **Quarter** (or **Area**)
+### Updated Translation Logic
+
+Translation is now used primarily as a "bridge" for mixed-language strings.
+
+* **Descriptor Translation (Mixed Strings Only):** When a local name is paired with an English descriptor (like "School", "Street", or "Market"), the local part is translated:
+* *Sabon Gari*  **Newtown**
+* *Tudun Wada*  **Wealth Hill**
+* *Unguwan*  **Quarter** (or **Area**)
+
+
+* **Preservation (Pure Strings):** If the location is known solely by its local name with no English additives, it remains in that language to honor the native naming convention.
 
 ---
 
@@ -73,13 +62,13 @@ To ensure accessibility for all users regardless of their native tongue, local d
 
 ### Administrative Regions (Hierarchy)
 
-* **State:** *Rivers, Cross River*
-* **LGA:** *Aba South* (Directional words retained), *Abua-Odual* (Merged)
-* **Ward:** *Ward I - Ward II* (Expanded from "Ward 1 & 2")
+* **LGA:** *Abua-Odual* (Pure local, hyphenated merger).
+* **Ward:** *Sabon Gari* (Pure local language—preserved as is).
+* **Ward:** *Ward I - Ward II* (Pure English—expanded from "Ward 1 & 2").
 
 ### Physical Locations (Places / Polling Units)
 
-* **Polling Unit:** *Kofur Sarki Primary School* (Expanded local abbreviation)
-* **Polling Unit:** *Newtown Clinic* (Translated and expanded from "S/Gari Clinic")
-* **Estate:** *Legislators Quarters* (Physical descriptor retained)
-* **Hall:** *Oba Palace Hall* (Physical descriptor retained)
+* **Polling Unit:** *Kofur Sarki* (Pure local—abbreviation *K/* expanded to *Kofur*, but language preserved).
+* **Polling Unit:** *Newtown Primary School* (Mixed—*Sabon Gari* translated to English because "Primary School" is English).
+* **Polling Unit:** *Wealth Hill Market* (Mixed—*Tudun Wada* translated because "Market" is English).
+* **Estate:** *Legislators Quarters* (Pure English—descriptor retained).
