@@ -1,4 +1,4 @@
-# Standardized Naming Conventions for Nigeria (Updated)
+# Standardized Location Naming Conventions for States, Local Government Areas (LGA)/counties, Cities/Towns, Districts, Council Areas, and Wards in Nigeria
 
 ## I. Structural Classification
 
