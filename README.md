@@ -1,83 +1,85 @@
-# Standardized Location Naming Conventions for States, Local Government Areas (LGA)/counties, Cities/Towns, Districts, Council Areas, and Wards in Nigeria
+# Standardized Naming Conventions for Nigeria
 
-## I. Core Rules (Non-Negotiable)
-* **Uniqueness (Priority 1):** Every location name must be unique within its parent region (e.g., LGA within a State). This rule overrides all others. If applying any other rule creates a name conflict, the differentiating word must be retained.
-* **Case Consistency:** All names must start with a capital letter followed by small letters (e.g., Gwagwalada).
-    * **Single Quote Exception:** In names containing a single quote ('), the letter immediately following the quote must be **lowercase** (e.g., *Jema'a*, not *Jema'A*), as the quote denotes a native language character rather than a punctuation mark.
+## I. Structural Classification
 
-## II. Word and Structure Formatting
-* **Multi-Word Spacing:** If the name has two or more distinct words, they must be separated by a single space (e.g., Mkpat Enin), unless they fall under the Compound Location rule.
-* **Compound Location Hyphen:** Names representing two or more merged, historical locations must separate the constituent names with a hyphen (-), with no spaces (e.g., *Abua-Odual*, *Akoko-Edo*).
-* **Conjunction Prohibition:** The words "and" or the symbol "&" are strictly prohibited.
-    * *Expansion Rule:* Where a conjunction connects two numbered entities (e.g., "Ward 1 & 2"), the name must be expanded and separated by a hyphen (e.g., *Ward I - Ward II*).
-* **Number Representation:** All numerical digits in the name must be converted to and represented using Roman numerals (e.g., *Akpa 2* becomes *Akpa II*).
+To ensure database integrity, names are categorized into two distinct types:
 
-## III. Prohibited Elements (Clarity and Consistency)
-* **Redundant Adjectives:** Adjectives or descriptors that define *what* the location is (e.g., *Municipal, City, District, Town, Village, L.G.A, Council, Area*) are considered redundant and must be removed.
-    * *Exceptions:* **Estate**, **Layout**, **Quarters**, and **Hall** are valid address descriptors and must be retained (e.g., *Umunomo Hall*).
-* **Directional Words:** Directional words (*East, West, North, South, Central*) are **PERMITTED** and should be retained to ensure uniqueness or accurately describe the location.
-* **Special Characters:** All special characters (such as `/`, `\`, `_`, `;`, `:`, `#`, `@`, `*`, `(`, `)`, `!`, `+`, `=`) are prohibited.
-    * *Replacement:* If a special character (like `/` or `&`) is used as a separator, it should be replaced with a hyphen (`-`).
-    * The single quote (') is the only permitted exception.
-* **Alternative Names:** Alternative or old names, misspellings, or local slang names are prohibited. Only the officially recognized name is allowed.
-* **Abbreviations:** Abbreviations of words in the name of a location are prohibited. Each word must be spelled out in full (e.g., *Govt* becomes *Government*).
-* **Language Translation:** Local language abbreviations or terms functioning as descriptors should be translated to their English equivalent to ensure accessibility (e.g., *Sabon Gari* or *S/G* becomes **Newtown**; *Tudun Wada* becomes **Wealth Hill**).
-* **Numerals Only:** A location name cannot consist of only a numerical number.
+1. **Administrative Regions:** Entities representing government boundaries (States, LGAs, Council Areas, Wards, Districts).
+2. **Physical Locations (Places):** Specific points, land-use areas, or institutions. **Polling Units** are classified here, treated similarly to businesses, halls, or estates rather than administrative tiers.
 
 ---
 
-# Examples of Application
+## II. Core Formatting Rules (Global)
 
-## States (36 Federating Units)
-These are the highest administrative level.
-* Lagos
-* Rivers
-* Cross River
-* Federal Capital Territory
-* Kano
-* Oyo
+* **Uniqueness:** Every name must be unique within its parent region. This overrides all other rules.
+* **Case Consistency:** Title Case (e.g., *Gwagwalada*).
+* *Single Quote Exception:* Letters immediately following a single quote must be **lowercase** (e.g., *Jema'a*).
 
-## Local Government Areas (LGAs) / Counties
-Demonstrates Hyphen rule (Merged Locations) vs. Spacing (Directional), and English Translation.
-* **Abua-Odual** (Rivers State - Historical Merger: Hyphenated)
-* **Akoko-Edo** (Edo State - Historical Merger: Hyphenated)
-* **Eti-Osa** (Lagos State - Historical Merger: Hyphenated)
-* **Aba South** (Abia State - Directional Split: Space Separated)
-* **Ibadan North East** (Oyo State - Directional Words Retained)
-* **Ijero** (Ekiti State)
 
-## Cities / Towns
-Major urban centers. Redundant "Municipal" removed.
-* Port Harcourt
-* Ilorin
-* Kaduna
-* Maiduguri
-* Abeokuta
-* **Owerri** (Not "Owerri Municipal")
+* **Spacing & Hyphens:** * Single spaces for multi-word names.
+* Hyphens (-) for merged/historical locations (e.g., *Akoko-Edo*) or as a replacement for prohibited separators like `/`.
 
-## Districts / Areas
-Demonstrates Roman Numerals, Single Quote casing, and Valid Descriptors.
-* **Wuse II** (FCT - Digit '2' converted to Roman 'II')
-* **Garki** (FCT)
-* **Lekki Phase I** (Lagos - '1' converted to 'I')
-* **Jema'a** (Kaduna State - Lowercase 'a' after single quote)
-* **Asokoro** (FCT)
-* **Gwarinpa Estate** (FCT - "Estate" is a valid descriptor, retained)
-* **Legislators Quarters** ("Quarters" is a valid descriptor, retained)
 
-## Council Areas
-* **Abuja** (The LGA/Area Council)
-* **Gwagwalada**
-* **Kuje**
-* **Bwari**
-* **Kwali**
-* **Abaji**
+* **Numbers:** All digits must be converted to **Roman Numerals** (e.g., *Akpa II*, *Ward I*).
+* **Prohibited Elements:**
+* **Conjunctions:** "And" or "&" are prohibited.
+* **Special Characters:** All characters except the single quote (`'`) and hyphen (`-`) are prohibited.
+* **Alternative Names:** Slang, old names, or misspellings are prohibited.
 
-## Wards
-Demonstrates Expansion and Translation.
-* **Kubwa III** (FCT)
-* **Dutse Alhaji** (FCT)
-* **Newtown** (Translated from "Sabon Gari" / "S/G")
-* **Wealth Hill** (Translated from "Tudun Wada")
-* **Apapa-Iganmu** (Lagos State - Merged)
-* **Ward I - Ward II** (Expanded from "Ward 1 & 2")
+
+
+---
+
+## III. Administrative Regions vs. Physical Locations
+
+### A. Administrative Regions (The "What" is Removed)
+
+Names of government units must strip away redundant administrative descriptors to avoid tautology.
+
+* **Rule:** Remove words defining government units: *Municipal, City, District, Town, Village, L.G.A, Council, Area*.
+* **Example:** "Owerri Municipal" becomes **Owerri**.
+
+### B. Physical Locations (The "What" is Retained)
+
+Names of specific places or land-use classifications must retain their descriptors to maintain their identity as a "Place."
+
+* **Rule:** Retain land-use and physical descriptors: *Estate, Layout, Quarters, Hall, Polling Unit, Primary School, Clinic, Palace, Market*.
+* **Example:** **Gwarinpa Estate**, **Umunomo Hall**, **Ahmadu Bello University**.
+* **Note on Polling Units:** Treat these as a "Contact Address" or "Institution" name.
+
+---
+
+## IV. Expanded Language & Abbreviation Rules
+
+To solve the ambiguity caused by Nigeria’s 100+ languages, abbreviations must be eliminated through the following hierarchy:
+
+| Condition | Action | Example |
+| --- | --- | --- |
+| **All characters are Local abbreviations** | Expand to the **Full Local Language** name. | *K/Sarki* becomes **Kofur Sarki** |
+| **Mixed English & Local abbreviations** | **Translate and Expand** to full English names. | *S/Gari Road* becomes **Newtown Road** |
+| **All characters are English abbreviations** | Expand to the **Full English** name. | *Govt Sec Sch* becomes **Government Secondary School** |
+
+### Language Translation Logic
+
+To ensure accessibility for all users regardless of their native tongue, local descriptors must be translated into English:
+
+* **Sabon Gari / S.G.**  **Newtown**
+* **Tudun Wada / T.W.**  **Wealth Hill**
+* **Unguwan**  **Quarter** (or **Area**)
+
+---
+
+## V. Example Application
+
+### Administrative Regions (Hierarchy)
+
+* **State:** *Rivers, Cross River*
+* **LGA:** *Aba South* (Directional words retained), *Abua-Odual* (Merged)
+* **Ward:** *Ward I - Ward II* (Expanded from "Ward 1 & 2")
+
+### Physical Locations (Places / Polling Units)
+
+* **Polling Unit:** *Kofur Sarki Primary School* (Expanded local abbreviation)
+* **Polling Unit:** *Newtown Clinic* (Translated and expanded from "S/Gari Clinic")
+* **Estate:** *Legislators Quarters* (Physical descriptor retained)
+* **Hall:** *Oba Palace Hall* (Physical descriptor retained)
