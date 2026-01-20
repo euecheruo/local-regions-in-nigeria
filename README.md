@@ -117,7 +117,7 @@ The convention follows a strict **"Preserve Language, Expand Abbreviations"** po
 | **Cities** | **Owerri** | "Municipal" descriptor stripped. |
 | **Districts** | **Wuse II** | Roman numeral conversion. |
 | **Districts** | **Jema'a** | Lowercase 'a' after single quote. |
-| **Wards** | **Ward I - Ward II** | Expanded from "Ward 1 & 2". |
+| **Wards** | **Ward I_Ward II** | Expanded from "Ward 1 & 2". |
 | **Places** | **Kofur Sarki** | Local abbreviation expanded. |
 | **Places** | **Gwarinpa Estate** | Physical descriptor "Estate" retained. |
 | **Places** | **University of Ibadan** | Physical descriptor "University" retained. |
