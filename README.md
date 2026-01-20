@@ -66,7 +66,7 @@ Entity names must be preserved exactly as they appear in the source or as intend
 
 
 * **Conjunction Prohibition:** The words "and" or the symbol "&" are strictly prohibited.
-* *Expansion Rule:* Where a conjunction connects two numbered entities (e.g., "Ward 1 & 2"), the name must be expanded and separated by a hyphen (e.g., **Ward I - Ward II**).
+* *Expansion Rule:* Where a conjunction connects two numbered entities (e.g., "Ward 1 & 2"), the name must be expanded and separated by a hyphen (e.g., **Ward I_Ward II**).
 
 
 * **Number Representation:** All numerical digits in the name must be converted to and represented using Roman numerals (e.g., *Akpa 2* becomes **Akpa II**).
