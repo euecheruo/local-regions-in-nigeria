@@ -52,10 +52,10 @@ Region names must be preserved exactly as they appear in the source or as intend
 
 | Scenario | Region A | Region B | Formatted Result |
 | --- | --- | --- | --- |
-| Native Hyphenated | South-West | Ile-Ife | **South-West_Ile-Ife** |
-| English Spaced | South-West | Lagos Island | **South-West_Lagos Island** |
-| Native Spaced | North-West | Birnin Kebbi | **North-West_Birnin Kebbi** |
-| Compound English | South-South | Port Harcourt | **South-South_Port Harcourt** |
+| Admin Level Merge | Abua | Odual | **Abua_Odual** |
+| Native Joiner | Akoko | Edo | **Akoko_Edo** |
+| Combined Wards | Ward I | Ward II | **Ward I_Ward II** |
+| Future State Merge | Akwa Ibom | Cross River | **Akwa Ibom_Cross River** |
 
 ---
 
@@ -112,3 +112,4 @@ The convention follows a strict **"Preserve Language, Expand Abbreviations"** po
 | **Places** | **Gwarinpa Estate** | Physical descriptor "Estate" retained. |
 | **Places** | **University of Ibadan** | Physical descriptor "University" retained. |
 | **Places** | **Government Reserved Area** | Abbreviation expanded (formerly GRA). |
+
