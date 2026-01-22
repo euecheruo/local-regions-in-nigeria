@@ -35,6 +35,7 @@ To ensure the framework remains robust across future administrative changes and 
 * *Example:* **Government Reserved Area** must be used instead of GRA.
 
 
+* **State Linguistic Authority:** The distinct linguistic groups within the State administrative level serve as the linguistic anchors for all constituent sub-regions. The native language(s) of these distinct linguistic groups recognized at the State level dictates the language used for naming its sub-regions to ensure cultural and administrative consistency.
 
 ---
 
@@ -85,13 +86,15 @@ To distinguish between two **Regions** being joined at the same administrative l
 
 ## IV. Language and Abbreviation Handling
 
-The convention follows a strict **"Preserve Language, Expand Abbreviations"** policy. Translation between local languages and English is prohibited.
+The convention follows a strict **"Preserve Language, Expand Abbreviations"** policy. Translation between local languages and English is prohibited. The language choice for sub-regions is governed by the State-level linguistic authority.
 
 | Condition | Action | Example |
 | --- | --- | --- |
 | **Local Language** | **Keep in Local Language.** Expand abbreviations to full local words. | *S/Gari* becomes **Sabon Gari**; *K/Sarki* becomes **Kofur Sarki**. |
 | **English Language** | **Keep in English.** Expand abbreviations to full English words. | *Govt Sec Sch* becomes **Government Secondary School**. |
 | **Mixed Language** | **Keep both as they are.** Expand abbreviations in respective languages. | *Tudun Wada Clinic* stays **Tudun Wada Clinic**. |
+
+* **Sub-Region Linguistic Alignment:** Sub-region naming (LGAs, Wards, etc.) must adhere to the native language of the distinct linguistic groups at the State level. Names should not be "translated" into the language of a neighboring state or a different distinct linguistic groups block if it contradicts the distinct linguistic groups identity established at the State administrative level.
 
 ---
 
