@@ -53,7 +53,7 @@ The Joiner is strictly the underscore character (**_**). It is used to distingui
 
 ### 2. Name Integrity and Directionals
 
-* **Internal Hyphens/Spaces:** Retained for names like **Ile-Ife** (native hyphen) or **Lagos Island** (native space). These are defined by **Sub-Region Linguistic Alignment**: naming must adhere to the native language of the distinct linguistic groups at the State level. Because region names are written in Native Nigerian Languages, a hyphen or space must be respected if it is native to that specific linguistic group. Names should not be "translated" or modified to fit a different linguistic block if it contradicts the identity established at the State level.
+* **Internal Hyphens/Spaces:** Hyphens are part of the alphabet used in the native language to make up a word and should not be used or interpreted as anything else, and are retained for names like **Ile-Ife** (native hyphen) or **Lagos Island** (native space). These are defined by **Sub-Region Linguistic Alignment**: naming must adhere to the native language of the distinct linguistic groups at the State level. Because region names are written in Native Nigerian Languages, a hyphen or space must be respected if it is native to that specific linguistic group. Names should not be "translated" or modified to fit a different linguistic block if it contradicts the identity established at the State level.
 * **Note:** There must be no space between the hyphen and the characters that make up the word.
 
 
