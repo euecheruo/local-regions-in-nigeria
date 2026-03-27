@@ -72,7 +72,7 @@ The Joiner is strictly the underscore character (**_**). It is used to distingui
 
 * **Multi-Word Spacing:** If a name has two or more distinct words, they are separated by a single space (e.g., **Mkpat Enin**), unless they represent a compound merge.
 * **Conjunction Prohibition:** The words "and" or the symbol "&" are strictly prohibited.
-* **Expansion Rule:** Where a conjunction connects two numbered regions (e.g., "Ward 1 & 2"), the name must be expanded and separated by an underscore (e.g., **Ward I_Ward II**).
+* **Expansion Rule:** For regions that have Directional Identifiers where a region name and relative directions are separated by the words "and" or a forward slash ("/") or ampersand ("&") (e.g., "Buniyadi North / South" ward), the name must be expanded to show they are two regions with Directional Identifiers (e.g., "Buniyadi North / Buniyadi South"). Then, the Structural Separator rule must be applied to join them with an underscore (e.g., **Buniyadi North_Buniyadi South**). This rule also applies to numbered regions (e.g., "Ward 1 & 2" becomes **Ward I_Ward II**).
 * **Number Representation:** All numerical digits in the name must be converted to and represented using Roman numerals (e.g., *Akpa 2* becomes **Akpa II**).
 
 ---
