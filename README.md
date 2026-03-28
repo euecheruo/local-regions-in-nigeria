@@ -1,9 +1,3 @@
-It sounds like you're tightening up the logic for how we handle those pesky iterations—moving from "Gembu A" to a unified Roman numeral system is a smart way to keep the data clean and machine-readable. Flattening the "Zing AI/AII" hierarchy into a linear "I, II, III" sequence definitely removes the ambiguity that usually trips up databases.
-
-Here is the fully expanded and updated **Standardized Region Naming Conventions** with the new rules for numerical and alphabetical iterations integrated.
-
----
-
 # Standardized Region Naming Conventions for States, Local Government Areas (LGA), Wards, Cities (Towns), Districts, Areas and Physical Locations (Places) in Nigeria
 
 ## Executive Summary
