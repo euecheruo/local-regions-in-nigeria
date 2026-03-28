@@ -35,7 +35,6 @@ This rule set establishes the fundamental baseline for the entire dataset. These
 * **Abbreviation Prohibition:** All abbreviations are strictly prohibited. Every word must be expanded to its full form to ensure global clarity and searchability.
 
     > *Example:* **Federal Capital Territory** must be used instead of FCT.
-
     > *Example:* **Government Reserved Area** must be used instead of GRA.
 
 * **State Linguistic Authority:** The distinct linguistic groups within the State administrative level serve as the linguistic anchors for all constituent sub-regions. The native language(s) of these distinct linguistic groups recognized at the State level dictates the language used for naming its sub-regions to ensure cultural and administrative consistency.
@@ -78,10 +77,9 @@ The Joiner is strictly the underscore character (**\_**). It is used to distingu
 * **Number and Iteration Representation:** All numerical digits and single English language alphabets representing a count iteration (e.g., "Gembu 'A'", "Gembu B", or "Gembu 'C'") must be converted to and represented using Roman numerals. This applies whether the iterator includes double quotes, single quotes, or no quotes at all.
     * **Flattening Sub-iterations:** Where sub-iterations exist within an already iterated region (e.g., "ZING AI", "ZING AII"), they must be flattened into a simple, continuous Roman numeral sequence that respects the original hierarchy.
 
-    > *Example:* **Zing AI** becomes **Zing I**.
-    
-    > *Example:* **Zing AII** becomes **Zing II**.
-    
+
+    > *Example:* **Zing AI** becomes **Zing I**.    
+    > *Example:* **Zing AII** becomes **Zing II**.    
     > *Example:* **Zing B** becomes **Zing III**.
 
 ---
@@ -101,7 +99,6 @@ The HIM is a specialized naming convention identifying unique geographic zones w
     Sub-levels may be skipped if unavailable or irrelevant, provided the relative hierarchical order remains intact.
 
     > **Valid:** `Imo>Ehime Mbano>Umunomo`
-
     > **Invalid:** `Imo>Umunomo>Ehime Mbano` (Violates parent-child order).
 
 * **Machine-Readable Delimiter Formatting:**
@@ -118,7 +115,6 @@ This rule set clarifies the distinction between a "region" (a boundary) and a "p
 * **Administrative Regions:** Redundant descriptors or adjectives that define the *legal category* of the administrative level, including **Country, Zone, State, Senatorial Constituency, Federal Constituency, State Constituency, Local Government Area, City, Ward, District, Postal Code, and Area**, must be stripped from the name. This applies to descriptors such as *State, Municipal, City, District, Town, Village, L.G.A, Council, Area, Township, or Ward*.
 
     > *Example:* "Owerri Municipal" becomes **Owerri**.
-
     > *Example:* "Rivers State" becomes **Rivers**.
 
 * **Physical Locations (Places):** Descriptors must be **RETAINED** to accurately identify specific sites, institutions, or land-use areas. This includes: *Estate, Layout, Quarters, Hall, Polling Unit, Primary School, Clinic, Palace, Market, Hospital, University, Government Reserved Area*.
