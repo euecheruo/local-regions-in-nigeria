@@ -33,8 +33,11 @@ This rule set establishes the fundamental baseline for the entire dataset. These
 * **Case Consistency:** All names must start with a capital letter followed by small letters (e.g., **Gwagwalada**).
 * **Single Quote Exception:** In names containing a single quote ('), the letter immediately following the quote must be **lowercase** (e.g., *Jema'a*, not *Jema'A*), as the quote denotes a native language character rather than punctuation.
 * **Abbreviation Prohibition:** All abbreviations are strictly prohibited. Every word must be expanded to its full form to ensure global clarity and searchability.
+
     > *Example:* **Federal Capital Territory** must be used instead of FCT.
+
     > *Example:* **Government Reserved Area** must be used instead of GRA.
+
 * **State Linguistic Authority:** The distinct linguistic groups within the State administrative level serve as the linguistic anchors for all constituent sub-regions. The native language(s) of these distinct linguistic groups recognized at the State level dictates the language used for naming its sub-regions to ensure cultural and administrative consistency.
 
 ---
@@ -52,7 +55,9 @@ The Joiner is strictly the underscore character (**\_**). It is used to distingu
 ### 2. Name Integrity and Directionals
 
 * **Internal Hyphens/Spaces:** Hyphens are part of the alphabet used in the native language to make up a word and should not be used or interpreted as anything else, and are retained for names like **Ile-Ife** (native hyphen) or **Lagos Island** (native space). These are defined by **Sub-Region Linguistic Alignment**: naming must adhere to the native language of the distinct linguistic groups at the State level. Because region names are written in Native Nigerian Languages, a hyphen or space must be respected if it is native to that specific linguistic group. Names should not be "translated" or modified to fit a different linguistic block if it contradicts the identity established at the State level.
+
     > **Note:** There must be no space between the hyphen and the characters that make up the word.
+
 * **Directional Identifiers:** Region name and a relative direction (e.g., **Lagos West**, **Abia North**) are treated as a single named entity. These must use a **space** rather than an underscore, as they represent a directional subdivision of a single entity rather than a merge of two historically distinct regions.
 
 ### 3. Visual Hierarchy Examples
@@ -72,8 +77,11 @@ The Joiner is strictly the underscore character (**\_**). It is used to distingu
 * **Expansion Rule:** For regions that have Directional Identifiers where a region name and relative directions are separated by the words "and" or a forward slash ("/") or ampersand ("&") (e.g., "Buniyadi North / South" ward), the name must be expanded to show they are two regions with Directional Identifiers (e.g., "Buniyadi North / Buniyadi South"). Then, the Structural Separator rule must be applied to join them with an underscore (e.g., **Buniyadi North_Buniyadi South**). This rule also applies to numbered regions (e.g., "Ward 1 & 2" becomes **Ward I_Ward II**).
 * **Number and Iteration Representation:** All numerical digits and single English language alphabets representing a count iteration (e.g., "Gembu 'A'", "Gembu B", or "Gembu 'C'") must be converted to and represented using Roman numerals. This applies whether the iterator includes double quotes, single quotes, or no quotes at all.
     * **Flattening Sub-iterations:** Where sub-iterations exist within an already iterated region (e.g., "ZING AI", "ZING AII"), they must be flattened into a simple, continuous Roman numeral sequence that respects the original hierarchy.
+
     > *Example:* **Zing AI** becomes **Zing I**.
+    
     > *Example:* **Zing AII** becomes **Zing II**.
+    
     > *Example:* **Zing B** becomes **Zing III**.
 
 ---
@@ -91,8 +99,11 @@ The HIM is a specialized naming convention identifying unique geographic zones w
     Every level must be the direct geographical parent of the subsequent level. A sub-region can only be joined to a parent if it physically and administratively resides within that boundary, ensuring a true "drill-down" path.
 * **Sequential Level Skipping:**
     Sub-levels may be skipped if unavailable or irrelevant, provided the relative hierarchical order remains intact.
+
     > **Valid:** `Imo>Ehime Mbano>Umunomo`
+
     > **Invalid:** `Imo>Umunomo>Ehime Mbano` (Violates parent-child order).
+
 * **Machine-Readable Delimiter Formatting:**
     The `>` character must be used without surrounding spaces to ensure database and GIS compatibility. All names must use Title Case (e.g., **Ehime Mbano**).
 * **Functional Intersection Purpose:**
@@ -105,9 +116,13 @@ The HIM is a specialized naming convention identifying unique geographic zones w
 This rule set clarifies the distinction between a "region" (a boundary) and a "place" (a physical site). It enforces the removal of redundant legal titles to keep region names clean while preserving descriptors for physical sites to ensure they remain identifiable.
 
 * **Administrative Regions:** Redundant descriptors or adjectives that define the *legal category* of the administrative level, including **Country, Zone, State, Senatorial Constituency, Federal Constituency, State Constituency, Local Government Area, City, Ward, District, Postal Code, and Area**, must be stripped from the name. This applies to descriptors such as *State, Municipal, City, District, Town, Village, L.G.A, Council, Area, Township, or Ward*.
+
     > *Example:* "Owerri Municipal" becomes **Owerri**.
+
     > *Example:* "Rivers State" becomes **Rivers**.
+
 * **Physical Locations (Places):** Descriptors must be **RETAINED** to accurately identify specific sites, institutions, or land-use areas. This includes: *Estate, Layout, Quarters, Hall, Polling Unit, Primary School, Clinic, Palace, Market, Hospital, University, Government Reserved Area*.
+
     > *Example:* **Gwarinpa Estate**, **Ahmadu Bello University**, **Government Reserved Area**.
 
 ---
