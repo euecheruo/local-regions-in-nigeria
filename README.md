@@ -76,7 +76,7 @@ The Joiner is strictly the underscore character (**\_**). It is used to distingu
 * **Expansion Rule:** For regions that have Directional Identifiers where a region name and relative directions are separated by the words "and" or a forward slash ("/") or ampersand ("&") (e.g., "Buniyadi North / South" ward), the name must be expanded to show they are two regions with Directional Identifiers (e.g., "Buniyadi North / Buniyadi South"). Then, the Structural Separator rule must be applied to join them with an underscore (e.g., **Buniyadi North_Buniyadi South**). This rule also applies to numbered regions (e.g., "Ward 1 & 2" becomes **Ward I_Ward II**).
 * **Number and Iteration Representation:** All numerical digits and single English language alphabets representing a count iteration (e.g., "Gembu 'A'", "Gembu B", or "Gembu 'C'") must be converted to and represented using Roman numerals. This applies whether the iterator includes double quotes, single quotes, or no quotes at all.
     * **Flattening Sub-iterations:** Where sub-iterations exist within an already iterated region (e.g., "ZING AI", "ZING AII"), they must be flattened into a simple, continuous Roman numeral sequence that respects the original hierarchy.
-
+      
 
     > *Example:* **Zing AI** becomes **Zing I**.    
     > *Example:* **Zing AII** becomes **Zing II**.    
