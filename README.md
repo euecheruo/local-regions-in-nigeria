@@ -69,19 +69,17 @@ The Joiner is strictly the underscore character (**\_**). It is used to distingu
 | Admin Level Merge | Abua | Odual | **Abua_Odual** |
 | Directional Identification | Lagos | West | **Lagos West** |
 | Native Joiner | Akoko | Edo | **Akoko_Edo** |
-| Combined Wards | Ward I | Ward II | **Ward I_Ward II** |
-| Iterative Flattening | Zing AI | Zing B | **Zing I_Zing III** |
 
 ---
 
 * **Multi-Word Spacing:** If a name has two or more distinct words, they are separated by a single space (e.g., **Mkpat Enin**), unless they represent a compound merge.
 * **Conjunction Prohibition:** The words "and" or the symbol "&" are strictly prohibited.
-* **Expansion Rule:** For regions that have Directional Identifiers where a region name and relative directions are separated by the words "and" or a forward slash ("/") or ampersand ("&") (e.g., "Buniyadi North / South" ward), the name must be expanded to show they are two regions with Directional Identifiers (e.g., "Buniyadi North / Buniyadi South"). Then, the Structural Separator rule must be applied to join them with an underscore (e.g., **Buniyadi North_Buniyadi South**). This rule also applies to numbered regions (e.g., "Ward 1 & 2" becomes **Ward I_Ward II**).
+* **Expansion Rule:** Cases involving "and" or the symbol "&" must be handled as an interactor that separates entities instead of being treated as a conjunction. For example, "Ward 1 & 2" translates to **Ward 1, Ward 2**. This same logic applies to hyphenated ranges, where "Ward 1-5" translates to **Ward 1, Ward 2, Ward 3, Ward 4, Ward 5**.
 * **Number and Iteration Representation:** All numerical digits and single English language alphabets representing a count iteration (e.g., "Gembu 'A'", "Gembu B", or "Gembu 'C'") must be converted to and represented using Roman numerals. This applies whether the iterator includes double quotes, single quotes, or no quotes at all.
-    * **Flattening Sub-iterations:** Where sub-iterations exist within an already iterated region (e.g., "ZING AI", "ZING AII"), they must be flattened into a simple, continuous Roman numeral sequence that respects the original hierarchy.
+    * **Flattening Sub-iterations:** Where sub-iterations exist within an already iterated region (e.g., "ZING AI", "ZING AII"), they must be flattened into a simple, continuous Roman numeral sequence that respects the original hierarchy.
 
-> *Example:* **Zing AI** becomes **Zing I**.    
-> *Example:* **Zing AII** becomes **Zing II**.    
+> *Example:* **Zing AI** becomes **Zing I**.    
+> *Example:* **Zing AII** becomes **Zing II**.    
 > *Example:* **Zing B** becomes **Zing III**.
 
 ---
@@ -93,20 +91,20 @@ The HIM is a specialized naming convention identifying unique geographic zones w
 ### The HIM Rule Set
 
 * **Top-Down Hierarchical Formula:**
-    Markers must strictly follow a top-down flow using the `>` delimiter:
-    `[State]>[LGA]>[City]>[District]>[Ward]>[Area]>[PostalCode]`
+    Markers must strictly follow a top-down flow using the `>` delimiter:
+    `[State]>[LGA]>[City]>[District]>[Ward]>[Area]>[PostalCode]`
 * **Strict Parental Lineage:**
-    Every level must be the direct geographical parent of the subsequent level. A sub-region can only be joined to a parent if it physically and administratively resides within that boundary, ensuring a true "drill-down" path.
+    Every level must be the direct geographical parent of the subsequent level. A sub-region can only be joined to a parent if it physically and administratively resides within that boundary, ensuring a true "drill-down" path.
 * **Sequential Level Skipping:**
-    Sub-levels may be skipped if unavailable or irrelevant, provided the relative hierarchical order remains intact.
+    Sub-levels may be skipped if unavailable or irrelevant, provided the relative hierarchical order remains intact.
 
 > **Valid:** `Imo>Ehime Mbano>Umunomo`
 > **Invalid:** `Imo>Umunomo>Ehime Mbano` (Violates parent-child order).
 
 * **Machine-Readable Delimiter Formatting:**
-    The `>` character must be used without surrounding spaces to ensure database and GIS compatibility. All names must use Title Case (e.g., **Ehime Mbano**).
+    The `>` character must be used without surrounding spaces to ensure database and GIS compatibility. All names must use Title Case (e.g., **Ehime Mbano**).
 * **Functional Intersection Purpose:**
-    These strings are functional markers, not "official addresses." They define coordinates where sub-regions intersect, allowing the database to categorize areas that would otherwise remain nameless or ambiguous.
+    These strings are functional markers, not "official addresses." They define coordinates where sub-regions intersect, allowing the database to categorize areas that would otherwise remain nameless or ambiguous.
 
 ---
 
@@ -163,10 +161,9 @@ The convention follows a strict **"Preserve Language, Expand Abbreviations"** po
 | **Wards** | Zing AI, AII, B | **Zing I, Zing II, Zing III** | Sub-iterations flattened and converted. |
 | **Districts** | Wuse 2 | **Wuse II** | Roman numeral conversion. |
 | **Districts** | Jema'A | **Jema'a** | Lowercase after single quote. |
-| **Wards** | Ward 1 & 2 | **Ward I_Ward II** | Expanded conjunction using underscore. |
+| **Wards** | Ward 1 & 2 | **Ward 1, Ward 2** | Handled as an interactor that separates entities. |
 | **Places** | Gwarinpa Estate | **Gwarinpa Estate** | Physical descriptor "Estate" retained. |
 | **Places** | GRA | **Government Reserved Area** | Abbreviation expanded. |
 | **HIM** | N/A | **Lagos>Ikeja>Ikeja>Ward I>100271** | Full hierarchical lineage. |
 
 ---
-
